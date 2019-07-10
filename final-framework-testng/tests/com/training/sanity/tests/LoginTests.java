@@ -25,7 +25,6 @@ import com.training.utility.DriverNames;
 public class LoginTests {
 
 	private WebDriver driver;
-	private String actual,file;
 	private String baseUrl;
 	private LoginTest_POM loginPOM;
 	private static Properties properties;
@@ -71,16 +70,16 @@ public class LoginTests {
 		loginPOM.sendUserName("om1@mail.com");
 		loginPOM.sendPassword("omkar213");
 		
-		screenShot.captureScreenShot("LoginDetailsPage");
+		screenShot.captureScreenShot("LoginDetailsPage1");
 		
 		loginPOM.clickSignInBtn();
 		
-		
+		Thread.sleep(500);
 		
 		String expected="My Profile – Real Estate1";
 		String actualString=loginPOM.pagetitle();
 		
-		screenShot.captureScreenShot("LoginDetailsPage");
+		screenShot.captureScreenShot("LoginDetailsPage2");
 		
 		try {
 		
@@ -95,7 +94,7 @@ public class LoginTests {
 			log.error("Login Failed");
 			report.generateReportsF(actualString, "LogionTestFailReport");
 		}
-		Thread.sleep(500);
+		
 		}
 		
 		

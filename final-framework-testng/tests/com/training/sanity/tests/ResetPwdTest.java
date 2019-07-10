@@ -71,7 +71,8 @@ public class ResetPwdTest {
 	    screenShot.captureScreenShot("AfterResetBtnClick");
 	    
 	    String actualmsg=pwdrecPOM.afterResetMessage();
-	    String expectedmsg= " ";
+	    String expectedmsg= "The email could not be sent."+
+	    		"Possible reason: your host may have disabled the mail() function.";
 		
 	    
 	  

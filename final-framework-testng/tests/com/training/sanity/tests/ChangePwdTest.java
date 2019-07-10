@@ -62,8 +62,8 @@ public class ChangePwdTest {
 	@Test
 	public void changePhoneNum() throws InterruptedException {
 		loginPOM.clickLoginLink();
-		loginPOM.sendUserName("om1@mail.com");
-		loginPOM.sendPassword("omkar213");
+		loginPOM.sendUserName("paru@mail.com");
+		loginPOM.sendPassword("paru@123");
 		loginPOM.clickSignInBtn();
 		
 		screenShot.captureScreenShot("LoginScreen");
@@ -75,7 +75,7 @@ public class ChangePwdTest {
 		screenShot.captureScreenShot("Myprofilepage1");
 		
 		myprofilePOM.changePwdlinkClick();
-		changepwdPOM.changepwd("omkar213", "omkar123", "omkar123");
+		changepwdPOM.changepwd("paru@123", "paru@321", "paru@321");
 		
 		screenShot.captureScreenShot("ChangePasswordPage1");
 

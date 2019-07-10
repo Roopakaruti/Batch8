@@ -33,6 +33,9 @@ private WebElement passWord;
 @FindBy(xpath="//input[@name='login']")
 private WebElement signinBtn; 
 
+@FindBy(xpath="//a[text()='Real Estate']")
+private WebElement realEstateHome; 
+
 
 @FindBy(xpath="//a[text()='Register']")
 private WebElement registerLinkBtn;
@@ -75,6 +78,10 @@ public void clickRegisterLinkBtn() {
 
 public void clickLostPwdLink() {
 	this.lostPwd.click();
+}
+
+public void clickrealEstateLink() {
+	this.realEstateHome.click();
 }
 
 public String pagetitle() {

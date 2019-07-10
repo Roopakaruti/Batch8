@@ -13,6 +13,11 @@
 			<class name="com.training.sanity.tests.ResetPwdTest" />
 			<class name="com.training.sanity.tests.ChangePhoneNumTest" />
 			<class name="com.training.sanity.tests.ChangePwdTest" />
+			<class name="com.training.sanity.tests.RETC_031Test" />
+			<class name="com.training.sanity.tests.RETC_032Test" />
+			<class name="com.training.sanity.tests.RETC_033Test" />
+			<class name="com.training.sanity.tests.RETC_034Test" />
+			<class name="com.training.sanity.tests.RETC_035Test" />	
 		</classes>
 	</test>
 </suite>

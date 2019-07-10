@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.training.sanity.tests.ResetPwdTest">
+      <class name="com.training.sanity.tests.RETC_034_Test">
         <methods>
           <include name="setUpBeforeClass"/>
-          <include name="passwordRecTest"/>
+          <include name="ContactforCommercialProp"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.training.sanity.tests.ResetPwdTest -->
+      </class> <!-- com.training.sanity.tests.RETC_034_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
